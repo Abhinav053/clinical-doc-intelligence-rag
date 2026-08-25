@@ -1,0 +1,123 @@
+{
+  "document": {
+    "document_id": "who_childhood_pneumonia_2014",
+    "title": "Revised WHO classification and treatment of childhood pneumonia at health facilities",
+    "source": "WHO guideline",
+    "year": 2014,
+    "note": "Curated evidence snippets for reproducible lightweight retrieval evaluation from the bundled WHO childhood pneumonia guideline PDF."
+  },
+  "chunks": [
+    {
+      "chunk_id": "who_pneumonia_classification_cough_breathing",
+      "pages": [7],
+      "text": "Children with cough or difficult breathing should be assessed for fast breathing, chest indrawing, and general danger signs to classify pneumonia severity."
+    },
+    {
+      "chunk_id": "who_pneumonia_fast_breathing",
+      "pages": [8],
+      "text": "Fast breathing pneumonia is classified when a child with cough or difficult breathing has age-specific fast breathing but no chest indrawing and no general danger signs."
+    },
+    {
+      "chunk_id": "who_pneumonia_chest_indrawing",
+      "pages": [8],
+      "text": "Chest indrawing pneumonia is present when a child has cough or difficult breathing with lower chest wall indrawing but no general danger signs."
+    },
+    {
+      "chunk_id": "who_pneumonia_danger_signs",
+      "pages": [9],
+      "text": "General danger signs include inability to drink or breastfeed, persistent vomiting, convulsions, lethargy or unconsciousness, and stridor in a calm child."
+    },
+    {
+      "chunk_id": "who_pneumonia_amoxicillin_first_line",
+      "pages": [11],
+      "text": "Oral amoxicillin is recommended as first-line antibiotic treatment for children with fast breathing pneumonia or chest indrawing pneumonia who can be managed as outpatients."
+    },
+    {
+      "chunk_id": "who_pneumonia_fast_breathing_duration",
+      "pages": [12],
+      "text": "Children with fast breathing pneumonia should receive oral amoxicillin treatment for an appropriate short course according to WHO recommendations."
+    },
+    {
+      "chunk_id": "who_pneumonia_chest_indrawing_outpatient",
+      "pages": [13],
+      "text": "Children with chest indrawing pneumonia may be treated with oral amoxicillin on an outpatient basis when referral is not required and danger signs are absent."
+    },
+    {
+      "chunk_id": "who_pneumonia_hiv_context",
+      "pages": [14],
+      "text": "In settings with high HIV prevalence or known HIV infection or exposure, pneumonia management may require special consideration and broader clinical assessment."
+    },
+    {
+      "chunk_id": "who_pneumonia_follow_up",
+      "pages": [15],
+      "text": "Caregivers should be advised to return for follow-up or immediately if the child becomes sicker, develops danger signs, cannot drink, or has worsening breathing."
+    },
+    {
+      "chunk_id": "who_pneumonia_referral",
+      "pages": [16],
+      "text": "Children with severe pneumonia or very severe disease, including danger signs, should receive urgent referral and appropriate pre-referral treatment."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What signs should be assessed in a child with cough or difficult breathing?",
+      "gold_chunk_ids": ["who_pneumonia_classification_cough_breathing"]
+    },
+    {
+      "id": "q2",
+      "question": "How is fast breathing pneumonia classified?",
+      "gold_chunk_ids": ["who_pneumonia_fast_breathing"]
+    },
+    {
+      "id": "q3",
+      "question": "What is chest indrawing pneumonia?",
+      "gold_chunk_ids": ["who_pneumonia_chest_indrawing"]
+    },
+    {
+      "id": "q4",
+      "question": "What are general danger signs in childhood pneumonia?",
+      "gold_chunk_ids": ["who_pneumonia_danger_signs"]
+    },
+    {
+      "id": "q5",
+      "question": "Which antibiotic is first line for outpatient childhood pneumonia?",
+      "gold_chunk_ids": ["who_pneumonia_amoxicillin_first_line"]
+    },
+    {
+      "id": "q6",
+      "question": "Can chest indrawing pneumonia be treated as outpatient when danger signs are absent?",
+      "gold_chunk_ids": ["who_pneumonia_chest_indrawing_outpatient"]
+    },
+    {
+      "id": "q7",
+      "question": "When should caregivers return for follow up?",
+      "gold_chunk_ids": ["who_pneumonia_follow_up"]
+    },
+    {
+      "id": "q8",
+      "question": "Which children require urgent referral for pneumonia?",
+      "gold_chunk_ids": ["who_pneumonia_referral", "who_pneumonia_danger_signs"]
+    },
+    {
+      "id": "q9",
+      "question": "What special context changes pneumonia management in HIV settings?",
+      "gold_chunk_ids": ["who_pneumonia_hiv_context"]
+    },
+    {
+      "id": "q10",
+      "question": "What treatment is recommended for fast breathing pneumonia?",
+      "gold_chunk_ids": ["who_pneumonia_fast_breathing_duration", "who_pneumonia_amoxicillin_first_line"]
+    },
+    {
+      "id": "q11",
+      "question": "What symptoms suggest severe disease and the need for referral?",
+      "gold_chunk_ids": ["who_pneumonia_referral", "who_pneumonia_danger_signs"]
+    },
+    {
+      "id": "q12",
+      "question": "What should be done if a child develops danger signs or worsening breathing?",
+      "gold_chunk_ids": ["who_pneumonia_follow_up", "who_pneumonia_referral"]
+    }
+  ]
+}

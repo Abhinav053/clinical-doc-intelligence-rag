@@ -1,0 +1,400 @@
+{
+  "metrics": {
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "hit_at_5": 1.0,
+    "recall_at_1": 0.8333,
+    "recall_at_3": 0.875,
+    "recall_at_5": 0.875,
+    "precision_at_1": 1.0,
+    "precision_at_3": 0.3611,
+    "precision_at_5": 0.2167,
+    "ndcg_at_1": 1.0,
+    "ndcg_at_3": 0.8966,
+    "ndcg_at_5": 0.8966,
+    "mrr": 1.0,
+    "mean_latency_ms": 0.0856,
+    "questions": 12,
+    "chunks": 10,
+    "document_id": "who_childhood_pneumonia_2014",
+    "document_title": "Revised WHO classification and treatment of childhood pneumonia at health facilities"
+  },
+  "details": [
+    {
+      "id": "q1",
+      "question": "What signs should be assessed in a child with cough or difficult breathing?",
+      "gold_chunk_ids": [
+        "who_pneumonia_classification_cough_breathing"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_classification_cough_breathing",
+          "score": 3.8421257540445994,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_fast_breathing",
+          "score": 3.234344026176116,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing",
+          "score": 2.8678985675017303,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q2",
+      "question": "How is fast breathing pneumonia classified?",
+      "gold_chunk_ids": [
+        "who_pneumonia_fast_breathing"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_fast_breathing",
+          "score": 2.7924492988969716,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_amoxicillin_first_line",
+          "score": 1.5658774133090345,
+          "pages": [
+            11
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_classification_cough_breathing",
+          "score": 1.3226616775122078,
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is chest indrawing pneumonia?",
+      "gold_chunk_ids": [
+        "who_pneumonia_chest_indrawing"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing",
+          "score": 2.069346193527002,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_amoxicillin_first_line",
+          "score": 1.5591540911492374,
+          "pages": [
+            11
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing_outpatient",
+          "score": 1.3075882692888174,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q4",
+      "question": "What are general danger signs in childhood pneumonia?",
+      "gold_chunk_ids": [
+        "who_pneumonia_danger_signs"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_danger_signs",
+          "score": 1.5583827517173925,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing_outpatient",
+          "score": 1.4032487557009035,
+          "pages": [
+            13
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_classification_cough_breathing",
+          "score": 1.2616432727616402,
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q5",
+      "question": "Which antibiotic is first line for outpatient childhood pneumonia?",
+      "gold_chunk_ids": [
+        "who_pneumonia_amoxicillin_first_line"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_amoxicillin_first_line",
+          "score": 3.0561168929438027,
+          "pages": [
+            11
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing_outpatient",
+          "score": 1.2288154300028806,
+          "pages": [
+            13
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_fast_breathing_duration",
+          "score": 0.723037406039094,
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q6",
+      "question": "Can chest indrawing pneumonia be treated as outpatient when danger signs are absent?",
+      "gold_chunk_ids": [
+        "who_pneumonia_chest_indrawing_outpatient"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing_outpatient",
+          "score": 4.683755762804025,
+          "pages": [
+            13
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_amoxicillin_first_line",
+          "score": 3.354612189963361,
+          "pages": [
+            11
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing",
+          "score": 2.6984965125333957,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q7",
+      "question": "When should caregivers return for follow up?",
+      "gold_chunk_ids": [
+        "who_pneumonia_follow_up"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_follow_up",
+          "score": 3.151471282161004,
+          "pages": [
+            15
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_fast_breathing_duration",
+          "score": 0.8689432356895955,
+          "pages": [
+            12
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_classification_cough_breathing",
+          "score": 0.8075266556299431,
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which children require urgent referral for pneumonia?",
+      "gold_chunk_ids": [
+        "who_pneumonia_referral",
+        "who_pneumonia_danger_signs"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_referral",
+          "score": 2.4387933743847254,
+          "pages": [
+            16
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_amoxicillin_first_line",
+          "score": 1.2205246550372484,
+          "pages": [
+            11
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_fast_breathing_duration",
+          "score": 1.1114720090181265,
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q9",
+      "question": "What special context changes pneumonia management in HIV settings?",
+      "gold_chunk_ids": [
+        "who_pneumonia_hiv_context"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_hiv_context",
+          "score": 3.9871912067729713,
+          "pages": [
+            14
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_danger_signs",
+          "score": 0.5415305073205408,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_amoxicillin_first_line",
+          "score": 0.50313164372084,
+          "pages": [
+            11
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q10",
+      "question": "What treatment is recommended for fast breathing pneumonia?",
+      "gold_chunk_ids": [
+        "who_pneumonia_fast_breathing_duration",
+        "who_pneumonia_amoxicillin_first_line"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_amoxicillin_first_line",
+          "score": 2.9721534823120956,
+          "pages": [
+            11
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_fast_breathing",
+          "score": 2.216555845191956,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_fast_breathing_duration",
+          "score": 1.9997458932749714,
+          "pages": [
+            12
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q11",
+      "question": "What symptoms suggest severe disease and the need for referral?",
+      "gold_chunk_ids": [
+        "who_pneumonia_referral",
+        "who_pneumonia_danger_signs"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_referral",
+          "score": 3.458435259448029,
+          "pages": [
+            16
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_follow_up",
+          "score": 0.9772496081424606,
+          "pages": [
+            15
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_chest_indrawing_outpatient",
+          "score": 0.801539527364199,
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    },
+    {
+      "id": "q12",
+      "question": "What should be done if a child develops danger signs or worsening breathing?",
+      "gold_chunk_ids": [
+        "who_pneumonia_follow_up",
+        "who_pneumonia_referral"
+      ],
+      "top_3": [
+        {
+          "chunk_id": "who_pneumonia_follow_up",
+          "score": 4.293295988230019,
+          "pages": [
+            15
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_fast_breathing",
+          "score": 2.432769875377354,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "chunk_id": "who_pneumonia_classification_cough_breathing",
+          "score": 2.316134883117701,
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "first_relevant_rank": 1
+    }
+  ]
+}

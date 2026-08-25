@@ -1,0 +1,9 @@
+[
+  {
+    "id": "demo-1",
+    "question": "What abnormal labs are present?",
+    "expected_answer": "Evidence should cite the page or table containing the abnormal lab value.",
+    "gold_chunk_ids": [],
+    "gold_document_ids": []
+  }
+]
