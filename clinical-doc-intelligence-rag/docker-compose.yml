@@ -1,0 +1,9 @@
+services:
+  clinical-document-rag:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - LLM_PROVIDER=mock

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+
+# Local runtime data
+/data/uploads/
+/data/artifacts/
+/data/vector_index/
+/data/*.sqlite3
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
